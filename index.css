@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #0C4A6E;
+    margin:auto;
+}
+.box {
+    background-color: black;
+    color: white;
+    display:flex;
+    justify-content: center;
+  
+}
+.rate {
+    border:1px solid #0284C7;
+    width:28px;
+    height:28px;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+ 
+    
+    
+}
+.rate1 {
+    gap:6px;
+   
+}
+.home-container {
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+  
+}
+h3 {
+    text-align:center;
+    color:white;
+    font-size:24px;
+    margin-bottom:6px;
+}
+.number {
+    color:#0284C7;
+    font-size:24px;
+}
